@@ -23,7 +23,7 @@ body {
   margin-top: 20px;
 }
 
-.ourServices a{
+.ourServices a, .aboutUs-btn{
     border-radius: 0px !important;
     height: 50px !important;
     width: 175px !important;
@@ -34,4 +34,8 @@ body {
 }
 .zirNevis{
     margin-top: 200px;
+}
+
+.business{
+    height: 700px;
 }
