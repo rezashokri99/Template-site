@@ -39,3 +39,31 @@ body {
 .business{
     height: 700px;
 }
+
+
+.imageDiv{
+  min-height: 727px;
+  background-image: linear-gradient(
+  0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url(../images/bg-2.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem ;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+
+.statistics {
+  height: 380px;
+  background-image: linear-gradient(
+  0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(../images/bg-3.jpg);
+  background-position: 50% 50%; 
+  background-size: cover;
+}
+
+
+.services{
+  height: 900px;
+}
