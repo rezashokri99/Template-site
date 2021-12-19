@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/Bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/fontawesome-free-5.15.4-web/css/all.css">
     <link rel="stylesheet" href="css/style.css">
@@ -12,19 +19,87 @@
 </head>
 
 <body>
+
+    <!-- header site -->
     <div class="container">
-        <div class="row my-2">
-            <div class="col-lg-2">
-                <div class="search">
-                    <input type="inputSearch" class="" >
-                    <button type="buttonSearch" class="" ></button>
+        <nav class="row align-items-center" style="height: 70px;">
+
+            <!-- search  -->
+            <div class="col-lg-2 mt-2">
+                <div class="search input-group mb-3">
+
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                        <i class="fas fa-search"></i>
+                    </button>
+
                 </div>
             </div>
-            <div class="col-lg-6 offset-4"></div>
-        </div>
+
+            <!-- menu  -->
+            <div class="col-lg-1 offset-9">
+
+                <!-- button humberger menu  -->
+                <a class="text-black" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                    aria-controls="offcanvasExample">
+                    <i class="fas fs-3 fa-bars"></i>
+                </a>
+
+                <!-- section menu  -->
+                <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <a type="button" class=" ms-auto" data-bs-dismiss="offcanvas">
+                            <i class="fas fa-times text-white" style="font-size: 28px !important;"></i>
+                        </a>
+                    </div>
+
+
+                    <div class="offcanvas-body text-center">
+                        <a href="#" class="d-block mx-auto text-white text-decoration-none">
+                            Home
+                        </a>
+                        <a href="#" class="d-block mx-auto text-white my-3 text-decoration-none">
+                            About Us
+                        </a>
+                        <a href="#" class="d-block mx-auto text-white text-decoration-none">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </div>
 
+    <!-- ourServices -->
+    <section class="ourServices my-0">
+        <div class="container h-100">
+            <div class="row h-100">
 
+                <div class="col-5"></div>
+
+                <!-- texts -->
+                <div class="col-6 h-100 text-center d-flex flex-column justify-content-center">
+                    <div class="mt-5">
+
+                        <p class="ourServices-p">OUR SERVICES</p>
+                        <h1 class="brandDesign">BRAND DESIGN</h1>
+
+                        <!-- buttons -->
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class=" btn btn-outline-dark btnAboutUs border-2 fs-6">ABOUT US</a>
+                            <span class="mx-5"
+                                style="font-size: 30px; font-weight: bolder; font-style: italic;">OR</span>
+                            <a class=" btn btn-outline-dark btnContact border-2 fs-6">CONTACT</a>
+                        </div>
+
+                    </div>
+
+                    <p class="zirNevis small">IMAGE FROM FREEPIK</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="js/Bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.js"></script>
