@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", "Arial", "sans-serif";
 }
-
+/* give background image to the ourServices section */
 .ourServices {
   background-image: url(../images/bg-1.jpg);
   overflow: visible;
@@ -9,6 +9,8 @@ body {
   background-position: 68.15% 72.19%;
   background-size: cover;
 }
+
+
 .ourServices-p {
   letter-spacing: 3px;
   font-weight: bold;
@@ -66,4 +68,13 @@ body {
 
 .services{
   height: 900px;
+}
+
+.ourTeams img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  margin: 170px 430px 0 430px;
+  background-size: cover;
 }
